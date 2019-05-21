@@ -1,0 +1,27 @@
+{
+  "name": "capacitor-nuxt",
+  "version": "1.0.0",
+  "description": "My tiptop Nuxt.js project",
+  "author": "Bubun Das",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate --no-ssr && npx cap copy",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@capacitor/android": "^1.0.0-beta.25",
+    "@capacitor/cli": "^1.0.0-beta.25",
+    "@capacitor/core": "^1.0.0-beta.25",
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "vuetify": "^1.5.5",
+    "vuetify-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
